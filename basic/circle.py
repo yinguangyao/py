@@ -6,6 +6,8 @@
 L = ['Bart', 'Lisa', 'Adam']
 for name in L:
     print("hello, %s" % name);
+# 如果想要循环遍历下标，有两种方式
+# 第一种
 length = len(L) - 1
 index = 0
 while index <= length:
@@ -13,3 +15,8 @@ while index <= length:
     index = index + 1
 for i in range(len(L)):
     print(L[i])
+# 第二种
+for i, value in enumerate(L):
+    print("value is: %s" % value)
+for x, y in [(1, 2), (2, 4), (3, 6)]:
+    print(x, y)
