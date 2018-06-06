@@ -17,5 +17,6 @@ def triangles():
             list2[i] = list1[i-1] + list1[i]
         list1 = copy.deepcopy(list2)
         n = n + 1
-        print(list2)
-triangles()
+        yield list2
+for x in triangles():
+    print(x)
