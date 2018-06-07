@@ -10,3 +10,8 @@ print(add(1, 2))
 def opr(a, b):
     return a+b, a-b
 print(opr(10, 20))
+count = 1
+def addCount():
+    a = count
+    print(a)
+addCount()
