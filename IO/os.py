@@ -11,4 +11,4 @@ os.rmdir(p)
 # os.rename("test.txt", "test111.txt")
 s = [x for x in os.listdir(".") if os.path.isfile(x)]
 print(s)
-print(os.listdir(os.path.abspath(r"d:\Users\gyyin\Desktop\project\py")))
+print(os.listdir(os.path.abspath(r"/Users/yinguangyao/Desktop/desktop/project/python")))
